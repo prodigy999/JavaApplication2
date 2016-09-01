@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body ng-app="myModule" ng-controller="MyController">
+        <form action="inscription" id="myForm">
+            <input type="text" ng-model="test" placeholder="rechercher"/>
+            <input type="button" ng-click="soumettre();" value="va chercher"/>
+        </form>
+        <div>{{resultat}}</div>
+        <script src="js/angular.min.js"></script>
+        <script type="text/javascript" src="js/exoAngularTest.js"></script>
+    </body>
+</html>
